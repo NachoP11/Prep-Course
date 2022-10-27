@@ -62,14 +62,15 @@ return divide;
 }
 
 function sonIguales(x, y) {
-  // Devuelve "true" si "x" e "y" son iguales
+ // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-if(x === y) {
-  return true;
-} else {
-return false;
-}
+  
+  if(x === y) {
+    return true;
+  } else { 
+    return false;
+  }
 
 }
 
@@ -77,7 +78,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-if (str1.length === str2.lenght) {
+if (str1.length === str2.length) {
   return true;
 } else {
 return false;
@@ -171,7 +172,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-return Math.randon(0,1);
+return Math.random(0,1);
 }
 
 function esPositivo(numero) {
@@ -209,7 +210,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-return 'Hola' + nombre + '!';
+return 'Hola ' + nombre + '!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -242,7 +243,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro * 1,2;
+  return euro * 1.2;
 
 }
 
@@ -256,7 +257,7 @@ function esVocal(letra){
 if (letra.length > 1){
   return 'Dato incorrecto';
 }
-if (letra === 'a'||letra === 'e'||letra === 'e'||letra === 'e'||letra === 'u');{
+if (letra === 'a'||letra === 'e'||letra === 'i'||letra === 'o'||letra === 'u'){
 return "Es vocal";
 }  
 return "Dato incorrecto";
